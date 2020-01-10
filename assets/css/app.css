@@ -28,3 +28,63 @@
 .breadcrumb-item a {
     color: #6c757d;
 }
+
+.category-name-box::before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f075";
+    font-weight: 900;
+    font-size: 32px;
+    margin: 20px;
+    float: left;
+}
+
+.category-unread {
+    color: #383838;
+}
+
+.category-read {
+    color: #818181;
+}
+
+.category-name-box {
+    padding: 10px;
+    margin: 5px;
+}
+
+.category-name-box > .category-title {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.category-name-box > .category-desc {
+    font-size: 11;
+    color: #6c757d;
+}
+
+.category-last-activity-user {
+    float: right;
+    margin: 20px;
+    line-height: 1;
+}
+
+.thread-last-title {
+    font-size: 13px;
+}
+
+.thread-last-title-post-by-text {
+    font-size: 10px;
+}
+
+.thread-last-username {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.stats-box {
+    background: #f7f7f7;
+}
+
+.online-users-number {
+    font-size: 19px;
+    font-weight: bold;
+}
