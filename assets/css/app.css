@@ -1,0 +1,30 @@
+.bg-light, .navbar-light {
+    background: #ffffff !important;
+}
+
+.nav-pills-bg {
+    background: #2675bf;
+}
+
+.nav-link {
+    color: #fafafa !important;
+}
+
+.user-avatar-hot {
+    position: absolute;
+    font-size: 20px;
+    bottom: -10px;
+    right: 10px;
+}
+
+.breadcrumb-bg {
+    background: #f7f7f7; 
+}
+
+.breadcrumb {
+    border-radius: 0 !important;
+}
+
+.breadcrumb-item a {
+    color: #6c757d;
+}
