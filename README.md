@@ -1,1 +1,1 @@
-[![Image: NfR1nsLKGOhTUvGG12MHd2FkKhUnvT](https://storage.macsch15.pl/images/NfR1nsLKGOhTUvGG12MHd2FkKhUnvT.png)](https://storage.macsch15.pl/images/NfR1nsLKGOhTUvGG12MHd2FkKhUnvT.png)
+[![Image: BYGaJICiJid53gmDvOXIlPoY1N7i5Z](https://storage.macsch15.pl/images/BYGaJICiJid53gmDvOXIlPoY1N7i5Z.png)](https://storage.macsch15.pl/images/BYGaJICiJid53gmDvOXIlPoY1N7i5Z.png)
