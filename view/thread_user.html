@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <title>Tricolore - Page View</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tricolore</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto"></ul>
+                <form class="form-inline my-2 my-lg-0 mr-4">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle text-decoration-none" id="dropdownMenuButton" data-reference="parent" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                        <img src="../assets/img/avatar_blank.jpg" class="rounded" width="42" alt="Avatar" />
+                        <span class="user-avatar-hot">
+                            <i class="text-danger fab fa-hotjar"></i>
+                        </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <div class="ml-4 text-muted">Hello, Maciej</div>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Notifications</h6>
+                        <a class="dropdown-item" href="#"><span class="badge badge-danger">New</span> <i class="fas fa-plus-circle"></i> You are recived reputation point in post <b>#81</b></a>
+                        <a class="dropdown-item" href="#"><span class="badge badge-danger">New</span> <i class="fas fa-at"></i> @Yump mentioned you in post <b>#588</b></a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-comment-alt"></i> You recived direct message from <b>@buku3</b></a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-plus-circle"></i> You are recived reputation point in post <b>#11</b></a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-comment-alt"></i> You recived direct message from <b>@zeld</b></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-envelope-open-text"></i> Messages <span class="badge badge-danger">New</span></a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-users-cog"></i> Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fas fa-power-off"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-pills-bg">
+        <div class="container">
+            <ul class="nav nav-pills nav-fill mt-1">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-users"></i> Members</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-hotjar"></i> Recent Activity</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i> Search</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="breadcrumb-bg" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb breadcrumb-bg justify-content-center">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="float-right ml-1 text-center" style="border: 1px #f2f2f2 solid; padding: 10px 20px 10px 20px;">
+            <a href="#" class="text-decoration-none text-dark">
+                <i class="fas fa-lg fa-star" style="color: #e2e216"></i><br />
+                <b>125</b>
+            </a>
+        </div>
+
+        <div class="dropdown float-right mt-3 mr-2">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-shield-alt"></i> Moderator Tools
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+
+        <h2 class="mb-5 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+
+        <div style="margin-left: 55px">
+            <img src="https://avatars2.githubusercontent.com/u/38838501?s=64&v=4" class="float-left" width="48" alt="" />
+
+            <div style="border: 1px #f2f2f2 solid; padding: 15px; margin-left: 65px">
+                <b>@JohnWatson</b> &dash;
+                <span class="text-muted">8 minutes ago</span>
+                <span class="badge badge-light">Author</span>
+
+                <div style="font-size: 17px" class="mt-3 ml-4">
+                    Dolores, saepe. Assumenda vitae eaque libero asperiores totam delectus, odit consequuntur! Explicabo rem voluptatum recusandae similique vero iure totam cum sint tenetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, odit. Deleniti perspiciatis, soluta esse cupiditate hic maxime modi. Quo, vero. Amet exercitationem saepe quo accusantium dolorem veniam officia consequuntur earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptate ipsum cupiditate laudantium quos optio explicabo voluptas repellat quis deserunt ex nostrum, ab quidem sunt rem, velit delectus. A, reprehenderit.
+                </div>
+
+                <hr />
+
+                <a href="#" class="badge badge-dark p-2">Reply</a> <a href="#" class="badge badge-dark p-2">Quote</a>
+
+                <div class="float-right text-muted">
+                    <i class="fab fa-firefox-browser fa-lg mr-1"></i>
+                    <i class="fab fa-apple fa-lg mr-1"></i>
+                    84.111.69.100
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-left: 55px" class="mt-3">
+            <img src="https://avatars2.githubusercontent.com/u/38838501?s=64&v=4" class="float-left" width="48" alt="" />
+
+            <div style="border: 1px #f2f2f2 solid; padding: 15px; margin-left: 65px">
+                <b style="color: #d61b1b">@SherlockHolmes <i class="fas fa-crown"></i></b> <span class="badge badge-success">Online</span> &dash;
+                <span class="text-muted">8 minutes ago</span>
+
+                <div style="font-size: 17px" class="mt-3 ml-4">
+                    Dolores, saepe. Assumenda vitae eaque libero asperiores totam delectus, odit consequuntur! Explicabo rem voluptatum recusandae similique vero iure totam cum sint tenetur. Lorem, ipsum dolor sit amet consectetur adipisicing eliipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptate ipsum cupiditate laudantium quos optio explicabo voluptas repellat quis deserunt ex nostrum, ab quidem sunt rem, velit delectus. A, reprehenderit.
+                </div>
+
+                <hr />
+
+                <a href="#" class="badge badge-dark p-2">Reply</a> <a href="#" class="badge badge-dark p-2">Quote</a>
+
+                <div class="float-right text-muted">
+                    <a href="#" class="badge badge-dark p-2">Edit</a> 
+                    <a href="#" class="badge badge-danger p-2 mr-2">Delete</a>
+                    <i class="fab fa-firefox-browser fa-lg mr-1"></i>
+                    <i class="fab fa-apple fa-lg mr-1"></i>
+                    84.111.69.100
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-left: 55px" class="mt-3">
+            <img src="https://avatars2.githubusercontent.com/u/38838501?s=64&v=4" class="float-left" width="48" alt="" />
+
+            <div style="border: 1px #f2f2f2 solid; padding: 15px; margin-left: 65px">
+                <b style="color: #6eba03">@Emy <i class="fas fa-shield-alt"></i></b> &dash;
+                <span class="text-muted">8 minutes ago</span>
+
+                <div style="font-size: 17px" class="mt-3 ml-4">
+                    Dolores, saepe. Assumenda vitae eaque libero asperiores totam delectus, odit consequuntur! Explicabo rem voluptatum recusandae similique vero iure totam cum sint tenetur. Lab quidem sunt rem, velit delectus. A, reprehenderit.
+                </div>
+
+                <hr />
+
+                <a href="#" class="badge badge-dark p-2">Reply</a> <a href="#" class="badge badge-dark p-2">Quote</a>
+
+                <div class="float-right text-muted">
+                    <a href="#" class="badge badge-dark p-2">Edit</a> 
+                    <a href="#" class="badge badge-danger p-2 mr-2">Delete</a>
+                    <i class="fab fa-chrome fa-lg mr-1"></i>
+                    <i class="fab fa-windows fa-lg mr-1"></i>
+                    84.111.69.100
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left mt-4" style="font-size: 14px">
+            <span class="badge badge-light">1247</span> <small>views</small>
+            <span class="badge badge-light">13</span> <small>replies</small>
+        </div>
+
+        <nav class="mt-3">
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div style="margin-left: 120px" class="mt-3 clearfix">
+            <div id="editor">
+                <p>Hello World!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong>Rem laboriosam culpa sunt, dolores commodi atque corporis quod labore? Esse suscipit aut quas</strong>, non earum maiores natus ipsum consectetur impedit expedita?</p>
+                <p><br></p>
+            </div>
+
+            <button type="button" class="btn btn-dark float-right mt-3"><i class="fas fa-plus"></i> Reply to this thread</button>
+        </div>
+    </div>
+
+    <div class="stats-box mt-4 mb-5">
+        <div class="container p-5">
+        <h3>Statistics</h3>
+        <hr />
+        <div class="row mt-3">
+            <div class="col">
+                Currently online <span class="online-users-number">98</span> users and <span class="online-users-number">397</span> guests.<br />
+                Logged in users:<br />
+                <div class="mt-2">
+                    <b>@Sma</b>, <b>@tuldp</b>, <b>@alice2090</b>, <b>@pol0909</b>, <b>@Sma</b>, <b>@tuldp</b>, <b>@alice2090</b>, <b>@pol0909</b>, <b>@Sma</b>, <b>@tuldp</b>, <b>@alice2090</b>, <b>@pol0909</b>, <b>@Sma</b>, <b>@tuldp</b>, <b>@alice2090</b>, <b>@pol0909</b>, <b>@Sma</b>, <b>@tuldp</b>, <b>@alice2090</b>, <b>@pol0909</b>, <b>@Sma</b>, <b>@tuldp</b>, <b>@alice2090</b>, <b>@pol0909</b>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+                <h4>
+                    47 112 <span class="text-muted">posts</span><br />
+                    1514 <span class="text-muted">threads</span>
+                    6470 <span class="text-muted">users</span>
+                </h4>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="text-center mb-4 text-muted">
+        &copy; 2020 - Maciej Schmidt
+    </footer>
+
+    <script src="https://kit.fontawesome.com/123c96bf9e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Include the Quill library -->
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+<!-- Initialize Quill editor -->
+<script>
+  var quill = new Quill('#editor', {
+    theme: 'snow'
+  });
+</script>
+  </body>
+</html>
